@@ -32,7 +32,7 @@ body {
 .small-box-title{
 font-size: 3vh;
 text-align: center;
-margin-top: 2vw;
+margin-top: 1vw;
 }
 
 .small-box-content{
@@ -60,6 +60,11 @@ padding: 3vh 0 0 5vh;
   margin-top: 2vw;
   margin-bottom: 4vw;
   border: 1px solid #E7E9EB;
+}
+
+.see-more-arrow{
+text-align: center;
+padding: 1vh;
 }
 
 .footer{
