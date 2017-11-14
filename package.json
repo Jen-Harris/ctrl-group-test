@@ -1,0 +1,22 @@
+{
+  "name": "ctrl-group-test",
+  "version": "1.0.0",
+  "description": "## Prototype  ![](https://files.gitter.im/Jen-Harris/cGGX/image.png)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jen-Harris/ctrl-group-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jen-Harris/ctrl-group-test/issues"
+  },
+  "homepage": "https://github.com/Jen-Harris/ctrl-group-test#readme",
+  "dependencies": {
+    "chart.js": "^2.7.1"
+  }
+}

@@ -67,12 +67,13 @@ padding: 3vh 0 0 5vh;
 
 .big-white-box{
   box-shadow: 5px 3px 10px #DBD6D6;
-  height: 50vh;
+  height: 40vh;
   width: 80vw;
   margin: 0 auto;
   margin-top: 2vw;
   margin-bottom: 4vw;
   border: 1px solid #E7E9EB;
+
 }
 
 .see-more-arrow{
@@ -86,8 +87,18 @@ padding: 1vh;
 }
 
 .chart-container{
-  width:600px;
-  height: 100px;
+  width: 50vw;
   float: right;
-  margin: 5vh;
+  margin: 5vh 4vh 8vh 0;
+}
+
+.chart-info{
+  float: left;
+  width: 20vw;
+  text-align: center;
+  margin: 6vh 0 6vh 4vh;
+}
+
+.big-box-content{
+  margin-top: 3vh;
 }

@@ -71,37 +71,16 @@
   </div>
 
   <div class="big-white-box">
+    <div class="chart-info">
+      <div class="icon">
+        <img src="./assets/medication.svg" alt="">
+      </div>
+      <div class="big-box-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+    </div>
     <div class="chart-container">
-    <canvas id="myChart" width="100" height="50" style="display: block; height: 50px; width: 200px;"></canvas>
-    <script>
-    var ctx = document.getElementById('myChart').getContext('2d');
-    var chart = new Chart(ctx, {
-        // The type of chart we want to create
-        type: 'line',
-
-        // The data for our dataset
-        data: {
-            labels: ["13th Feb", "14th Feb", "15th Feb", "16th Feb", "17th Feb", "18th Feb", "19th Feb", "20th Feb", "21st Feb", "22nd Feb", "23rd Feb", "24th Feb", "26th Feb", "27th Feb", "28th Feb", "1st March", "2nd March", "3rd March", "4th March", "5th March", "6th March", "7th March", "8th March", "9th March", "10th March", "11th March", "12th March", "13th March", "14th March", "15th March", "16th March", "17th March", "18th March", "19th March", "20th March", "21st March", "22nd March", "23rd March", "24th March", "25th March", "26th March"],
-            datasets: [{
-                label: "Medication",
-                showLine: false,
-                pointStyle: 'circle',
-                backgroundColor: 'rgb(166, 74, 185)',
-                spanGaps: true,
-                scaleShowLabels: false,
-                pointRadius: 6,
-                data: [1,1,,1,1,1,,1,,,1,,,1,1,,1,1,,,,1,1,1,,1,1,1,,1,1,1,1,,,,,1,1,,1],
-            }]
-        },
-        options: {
-           scales: {
-             yAxes: [{
-               display: false
-             }],
-           }
-         },
-    });
-    </script>
+    <canvas id="medicationChart" width="100" height="35" style="display: block; height: 50px; width: 200px;"></canvas>
     </div>
   </div>
 </section>
@@ -117,6 +96,17 @@
     Wellbeing
   </div>
   <div class="big-white-box">
+    <div class="chart-info">
+      <div class="icon">
+        <img src="./assets/wellbeing.svg" alt="">
+      </div>
+      <div class="big-box-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+    </div>
+    <div class="chart-container">
+    <canvas id="wellbeingChart" width="100" height="35" style="display: block; height: 50px; width: 200px;"></canvas>
+    </div>
   </div>
 </section>
 
@@ -130,6 +120,17 @@
     PHQ
   </div>
   <div class="big-white-box">
+    <div class="chart-info">
+      <div class="icon">
+        <img src="./assets/phq.svg" alt="">
+      </div>
+      <div class="big-box-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+    </div>
+    <div class="chart-container">
+    <canvas id="phqChart" width="100" height="35" style="display: block; height: 50px; width: 200px;"></canvas>
+    </div>
   </div>
 </section>
 
@@ -143,5 +144,9 @@
   Property of Jen Harris &copy; <br> All Rights Reserved
 </div>
 </footer>
+
+
+<script src="./main.js"></script>
+
 </body>
 </html>
