@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 <link rel="stylesheet" href="./style.css">
@@ -69,7 +69,40 @@
   <div class="section-heading">
       Medication
   </div>
+
   <div class="big-white-box">
+    <div class="chart-container">
+    <canvas id="myChart" width="100" height="50" style="display: block; height: 50px; width: 200px;"></canvas>
+    <script>
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var chart = new Chart(ctx, {
+        // The type of chart we want to create
+        type: 'line',
+
+        // The data for our dataset
+        data: {
+            labels: ["13th Feb", "14th Feb", "15th Feb", "16th Feb", "17th Feb", "18th Feb", "19th Feb", "20th Feb", "21st Feb", "22nd Feb", "23rd Feb", "24th Feb", "26th Feb", "27th Feb", "28th Feb", "1st March", "2nd March", "3rd March", "4th March", "5th March", "6th March", "7th March", "8th March", "9th March", "10th March", "11th March", "12th March", "13th March", "14th March", "15th March", "16th March", "17th March", "18th March", "19th March", "20th March", "21st March", "22nd March", "23rd March", "24th March", "25th March", "26th March"],
+            datasets: [{
+                label: "Medication",
+                showLine: false,
+                pointStyle: 'circle',
+                backgroundColor: 'rgb(166, 74, 185)',
+                spanGaps: true,
+                scaleShowLabels: false,
+                pointRadius: 6,
+                data: [1,1,,1,1,1,,1,,,1,,,1,1,,1,1,,,,1,1,1,,1,1,1,,1,1,1,1,,,,,1,1,,1],
+            }]
+        },
+        options: {
+           scales: {
+             yAxes: [{
+               display: false
+             }],
+           }
+         },
+    });
+    </script>
+    </div>
   </div>
 </section>
 

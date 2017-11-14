@@ -67,7 +67,7 @@ padding: 3vh 0 0 5vh;
 
 .big-white-box{
   box-shadow: 5px 3px 10px #DBD6D6;
-  height: 35vh;
+  height: 50vh;
   width: 80vw;
   margin: 0 auto;
   margin-top: 2vw;
@@ -83,4 +83,11 @@ padding: 1vh;
 .footer{
   color: white;
   margin-left: 2vw;
+}
+
+.chart-container{
+  width:600px;
+  height: 100px;
+  float: right;
+  margin: 5vh;
 }
