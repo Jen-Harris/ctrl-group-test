@@ -9,12 +9,25 @@ body {
 
 .header-footer{
   width: 100vw;
-  height: 10vh;
+  height: auto;
+  min-height: 10vh;
   background-color: #4699F9;
   padding: 2vh;
   margin-bottom: 2vh;
   z-index: 999;
+  display: inline-block;
+
 }
+
+.header-paragraph{
+  float: right;
+}
+
+.header-title{
+  float: left;
+}
+
+
 
 .small-white-box{
   box-shadow: 5px 3px 10px #DBD6D6;
