@@ -21,10 +21,10 @@ I list is detail the process I took below, however here a few more general comme
 - [x] __DESIGN__ _*1.5 hours*_ 
     - [x] Paper Prototype
     - [x] Sketch Prototype
-- [x]__BUILD__ _*5 hours*_
-    - [x]HTML
-    - [x]CSS
-    - [x]chart.js
+- [x] __BUILD__ _*5 hours*_
+    - [x] HTML
+    - [x] CSS
+    - [x] chart.js
 
 ### Prototype :art: 
 ![](https://files.gitter.im/Jen-Harris/cGGX/image.png)
